@@ -19,12 +19,17 @@ public class Locators {
 		//WebElement username =browser.findElement(By.name("email"));
 		//WebElement username =browser.findElement(By.className("inputtext _55r1 _6luy"));
 	//	CSS selector
-		WebElement username =browser.findElement(By.cssSelector("input#email"));
+		//WebElement username =browser.findElement(By.cssSelector("input#email"));
 		
-		username.sendKeys("sathish");
+		//username.sendKeys("sathish");
 		//browser.findElement(By.linkText("Forgotten password?")).click();
 		//browser.findElement(By.partialLinkText("tten")).click();
+		//Xpath
+		//WebElement username =browser.findElement(By.xpath("//*[@data-testid='royal_email']"));
+		WebElement username =browser.findElement(By.xpath("//*[contains(@class,'_55r1') and @name='email']"));
 		
+		
+		username.sendKeys("sathish");
 	}
 
 	public static void main(String[] args) {
