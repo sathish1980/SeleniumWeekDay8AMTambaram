@@ -1,5 +1,7 @@
 package SeleniumBasics;
 
+import java.awt.AWTException;
+import java.awt.Robot;
 import java.awt.event.KeyEvent;
 import java.time.Duration;
 
@@ -73,12 +75,35 @@ public class MouseActions {
 		
 	}
 	
+	public void MouseMovewithKeyboardRobot() throws InterruptedException, AWTException
+	{
+		WebDriver browser = new ChromeDriver();
+		browser.get("https://www.facebook.com/");
+		browser.manage().window().maximize();
+		Actions mouse = new Actions(browser);
+		mouse.moveToElement(browser.findElement(By.id("email"))).sendKeys("sathish").doubleClick().contextClick().perform();
+		Robot rb = new Robot();
+		rb.keyPress(KeyEvent.VK_DOWN);
+		rb.keyRelease(KeyEvent.VK_DOWN);
+		rb.keyPress(KeyEvent.VK_DOWN);
+		rb.keyRelease(KeyEvent.VK_DOWN);
+		rb.keyPress(KeyEvent.VK_DOWN);
+		rb.keyRelease(KeyEvent.VK_DOWN);
+		rb.keyPress(KeyEvent.VK_ENTER);
+		rb.keyRelease(KeyEvent.VK_ENTER);
+		rb.keyPress(KeyEvent.VK_TAB);
+		rb.keyRelease(KeyEvent.VK_TAB);
+		rb.keyPress(KeyEvent.VK_CONTROL);
+		rb.keyPress(KeyEvent.VK_V);
+		rb.keyRelease(KeyEvent.VK_CONTROL);
+		rb.keyRelease(KeyEvent.VK_V);
+	}
 	
 
-	public static void main(String[] args) throws InterruptedException {
+	public static void main(String[] args) throws InterruptedException, AWTException {
 		// TODO Auto-generated method stub
 		MouseActions M = new MouseActions();
-		M.MouseMovewithKeyboard();
+		M.MouseMovewithKeyboardRobot();
 	}
 
 }
