@@ -1,96 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="7" passed="5">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="45" started-at="2023-11-06T09:22:38 IST" finished-at="2023-11-06T09:22:38 IST">
+  <suite name="Suite" duration-ms="2983" started-at="2023-11-07T09:03:13 IST" finished-at="2023-11-07T09:03:16 IST">
     <groups>
-      <group name="Sanity">
-        <method signature="TestGAnnotations.Testcase1()[pri:-1, instance:TestNGBasics.TestGAnnotations@365185bd]" name="Testcase1" class="TestNGBasics.TestGAnnotations"/>
-        <method signature="TestGAnnotations.Testcase2()[pri:-5, instance:TestNGBasics.TestGAnnotations@365185bd]" name="Testcase2" class="TestNGBasics.TestGAnnotations"/>
-      </group> <!-- Sanity -->
-      <group name="SIT">
-        <method signature="TestGAnnotations.Testcase1()[pri:-1, instance:TestNGBasics.TestGAnnotations@365185bd]" name="Testcase1" class="TestNGBasics.TestGAnnotations"/>
-        <method signature="TestGAnnotations.Testcase2()[pri:-5, instance:TestNGBasics.TestGAnnotations@365185bd]" name="Testcase2" class="TestNGBasics.TestGAnnotations"/>
-        <method signature="TestGAnnotations.Testcase3()[pri:-3, instance:TestNGBasics.TestGAnnotations@365185bd]" name="Testcase3" class="TestNGBasics.TestGAnnotations"/>
-        <method signature="testNGAnnotation2.Testcase1()[pri:0, instance:TestNGBasics.testNGAnnotation2@25bbf683]" name="Testcase1" class="TestNGBasics.testNGAnnotation2"/>
-        <method signature="testNGAnnotation2.Testcase2()[pri:1, instance:TestNGBasics.testNGAnnotation2@25bbf683]" name="Testcase2" class="TestNGBasics.testNGAnnotation2"/>
-      </group> <!-- SIT -->
     </groups>
-    <test name="Test" duration-ms="45" started-at="2023-11-06T09:22:38 IST" finished-at="2023-11-06T09:22:38 IST">
-      <class name="TestNGBasics.testNGAnnotation2">
-        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:TestNGBasics.testNGAnnotation2@25bbf683]" name="BeforeClass" is-config="true" duration-ms="0" started-at="2023-11-06T09:22:38 IST" finished-at="2023-11-06T09:22:38 IST">
+    <test name="Test" duration-ms="2983" started-at="2023-11-07T09:03:13 IST" finished-at="2023-11-07T09:03:16 IST">
+      <class name="Testcases.MakeMyTripFlighSearch">
+        <test-method status="PASS" signature="LaunchTheBrowser()[pri:0, instance:Testcases.MakeMyTripFlighSearch@18bf3d14]" name="LaunchTheBrowser" is-config="true" duration-ms="4962" started-at="2023-11-07T09:03:08 IST" finished-at="2023-11-07T09:03:13 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BeforeClass -->
-        <test-method status="PASS" signature="Testcase1()[pri:0, instance:TestNGBasics.testNGAnnotation2@25bbf683]" name="Testcase1" duration-ms="1" started-at="2023-11-06T09:22:38 IST" finished-at="2023-11-06T09:22:38 IST">
+        </test-method> <!-- LaunchTheBrowser -->
+        <test-method status="PASS" signature="OpenTheApplication()[pri:0, instance:Testcases.MakeMyTripFlighSearch@18bf3d14]" name="OpenTheApplication" is-config="true" duration-ms="2951" started-at="2023-11-07T09:03:13 IST" finished-at="2023-11-07T09:03:16 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Testcase1 -->
-        <test-method status="PASS" signature="Testcase2()[pri:1, instance:TestNGBasics.testNGAnnotation2@25bbf683]" name="Testcase2" duration-ms="0" started-at="2023-11-06T09:22:38 IST" finished-at="2023-11-06T09:22:38 IST">
+        </test-method> <!-- OpenTheApplication -->
+        <test-method status="PASS" signature="sampleTestcase()[pri:0, instance:Testcases.MakeMyTripFlighSearch@18bf3d14]" name="sampleTestcase" duration-ms="4" started-at="2023-11-07T09:03:16 IST" finished-at="2023-11-07T09:03:16 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Testcase2 -->
-      </class> <!-- TestNGBasics.testNGAnnotation2 -->
-      <class name="TestNGBasics.TestNGAnnotation3">
-        <test-method status="PASS" signature="AfterSuite()[pri:0, instance:TestNGBasics.TestNGAnnotation3@3578436e]" name="AfterSuite" is-config="true" duration-ms="0" started-at="2023-11-06T09:22:38 IST" finished-at="2023-11-06T09:22:38 IST">
+        </test-method> <!-- sampleTestcase -->
+        <test-method status="PASS" signature="CloseTheApplication()[pri:0, instance:Testcases.MakeMyTripFlighSearch@18bf3d14]" name="CloseTheApplication" is-config="true" duration-ms="634" started-at="2023-11-07T09:03:16 IST" finished-at="2023-11-07T09:03:16 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AfterSuite -->
-      </class> <!-- TestNGBasics.TestNGAnnotation3 -->
-      <class name="TestNGBasics.TestGAnnotations">
-        <test-method status="PASS" signature="BeforeSuite()[pri:0, instance:TestNGBasics.TestGAnnotations@365185bd]" name="BeforeSuite" is-config="true" duration-ms="6" started-at="2023-11-06T09:22:38 IST" finished-at="2023-11-06T09:22:38 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeSuite -->
-        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:TestNGBasics.TestGAnnotations@365185bd]" name="BeforeTest" is-config="true" duration-ms="1" started-at="2023-11-06T09:22:38 IST" finished-at="2023-11-06T09:22:38 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeTest -->
-        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:TestNGBasics.TestGAnnotations@365185bd]" name="BeforeClass" is-config="true" duration-ms="0" started-at="2023-11-06T09:22:38 IST" finished-at="2023-11-06T09:22:38 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeClass -->
-        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:TestNGBasics.TestGAnnotations@365185bd]" name="BeforeMethod" is-config="true" duration-ms="1" started-at="2023-11-06T09:22:38 IST" finished-at="2023-11-06T09:22:38 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="Testcase3()[pri:-3, instance:TestNGBasics.TestGAnnotations@365185bd]" name="Testcase3" duration-ms="7" started-at="2023-11-06T09:22:38 IST" finished-at="2023-11-06T09:22:38 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Testcase3 -->
-        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:TestNGBasics.TestGAnnotations@365185bd]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2023-11-06T09:22:38 IST" finished-at="2023-11-06T09:22:38 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="Testcase1()[pri:-1, instance:TestNGBasics.TestGAnnotations@365185bd]" name="Testcase1" duration-ms="1" started-at="2023-11-06T09:22:38 IST" description="valid login" finished-at="2023-11-06T09:22:38 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Testcase1 -->
-        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:TestNGBasics.TestGAnnotations@365185bd]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2023-11-06T09:22:38 IST" finished-at="2023-11-06T09:22:38 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:TestNGBasics.TestGAnnotations@365185bd]" name="AfterMethod" is-config="true" duration-ms="1" started-at="2023-11-06T09:22:38 IST" finished-at="2023-11-06T09:22:38 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:TestNGBasics.TestGAnnotations@365185bd]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2023-11-06T09:22:38 IST" finished-at="2023-11-06T09:22:38 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="Testcase2()[pri:-5, instance:TestNGBasics.TestGAnnotations@365185bd]" name="Testcase2" duration-ms="0" started-at="2023-11-06T09:22:38 IST" depends-on-methods="TestNGBasics.TestGAnnotations.Testcase1" finished-at="2023-11-06T09:22:38 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Testcase2 -->
-        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:TestNGBasics.TestGAnnotations@365185bd]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2023-11-06T09:22:38 IST" finished-at="2023-11-06T09:22:38 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method status="PASS" signature="AfterClass()[pri:0, instance:TestNGBasics.TestGAnnotations@365185bd]" name="AfterClass" is-config="true" duration-ms="1" started-at="2023-11-06T09:22:38 IST" finished-at="2023-11-06T09:22:38 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterClass -->
-      </class> <!-- TestNGBasics.TestGAnnotations -->
+        </test-method> <!-- CloseTheApplication -->
+      </class> <!-- Testcases.MakeMyTripFlighSearch -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
