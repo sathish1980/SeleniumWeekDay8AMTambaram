@@ -1,29 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="2983" started-at="2023-11-07T09:03:13 IST" finished-at="2023-11-07T09:03:16 IST">
+  <suite name="Default suite" duration-ms="56873" started-at="2023-11-10T09:21:44 IST" finished-at="2023-11-10T09:22:41 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="2983" started-at="2023-11-07T09:03:13 IST" finished-at="2023-11-07T09:03:16 IST">
+    <test name="Default test" duration-ms="56873" started-at="2023-11-10T09:21:44 IST" finished-at="2023-11-10T09:22:41 IST">
       <class name="Testcases.MakeMyTripFlighSearch">
-        <test-method status="PASS" signature="LaunchTheBrowser()[pri:0, instance:Testcases.MakeMyTripFlighSearch@18bf3d14]" name="LaunchTheBrowser" is-config="true" duration-ms="4962" started-at="2023-11-07T09:03:08 IST" finished-at="2023-11-07T09:03:13 IST">
+        <test-method status="PASS" signature="LaunchTheBrowser()[pri:0, instance:Testcases.MakeMyTripFlighSearch@4fb64261]" name="LaunchTheBrowser" is-config="true" duration-ms="2613" started-at="2023-11-10T09:21:41 IST" finished-at="2023-11-10T09:21:44 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchTheBrowser -->
-        <test-method status="PASS" signature="OpenTheApplication()[pri:0, instance:Testcases.MakeMyTripFlighSearch@18bf3d14]" name="OpenTheApplication" is-config="true" duration-ms="2951" started-at="2023-11-07T09:03:13 IST" finished-at="2023-11-07T09:03:16 IST">
+        <test-method status="PASS" signature="OpenTheApplication()[pri:0, instance:Testcases.MakeMyTripFlighSearch@4fb64261]" name="OpenTheApplication" is-config="true" duration-ms="2703" started-at="2023-11-10T09:21:44 IST" finished-at="2023-11-10T09:21:46 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenTheApplication -->
-        <test-method status="PASS" signature="sampleTestcase()[pri:0, instance:Testcases.MakeMyTripFlighSearch@18bf3d14]" name="sampleTestcase" duration-ms="4" started-at="2023-11-07T09:03:16 IST" finished-at="2023-11-07T09:03:16 IST">
+        <test-method status="PASS" signature="deleteAdds()[pri:0, instance:Testcases.MakeMyTripFlighSearch@4fb64261]" name="deleteAdds" is-config="true" duration-ms="8497" started-at="2023-11-10T09:21:46 IST" finished-at="2023-11-10T09:21:55 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sampleTestcase -->
-        <test-method status="PASS" signature="CloseTheApplication()[pri:0, instance:Testcases.MakeMyTripFlighSearch@18bf3d14]" name="CloseTheApplication" is-config="true" duration-ms="634" started-at="2023-11-07T09:03:16 IST" finished-at="2023-11-07T09:03:16 IST">
+        </test-method> <!-- deleteAdds -->
+        <test-method status="PASS" signature="SearchWithValidValues()[pri:0, instance:Testcases.MakeMyTripFlighSearch@4fb64261]" name="SearchWithValidValues" duration-ms="38003" started-at="2023-11-10T09:21:55 IST" finished-at="2023-11-10T09:22:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchWithValidValues -->
+        <test-method status="PASS" signature="SearchWithSameFromAndToLocation()[pri:1, instance:Testcases.MakeMyTripFlighSearch@4fb64261]" name="SearchWithSameFromAndToLocation" duration-ms="7633" started-at="2023-11-10T09:22:33 IST" finished-at="2023-11-10T09:22:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchWithSameFromAndToLocation -->
+        <test-method status="PASS" signature="CloseTheApplication()[pri:0, instance:Testcases.MakeMyTripFlighSearch@4fb64261]" name="CloseTheApplication" is-config="true" duration-ms="772" started-at="2023-11-10T09:22:41 IST" finished-at="2023-11-10T09:22:41 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseTheApplication -->
       </class> <!-- Testcases.MakeMyTripFlighSearch -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
