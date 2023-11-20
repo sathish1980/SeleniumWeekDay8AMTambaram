@@ -2,36 +2,36 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="56873" started-at="2023-11-10T09:21:44 IST" finished-at="2023-11-10T09:22:41 IST">
+  <suite name="Suite" duration-ms="33775" started-at="2023-11-20T09:09:50 IST" finished-at="2023-11-20T09:10:23 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="56873" started-at="2023-11-10T09:21:44 IST" finished-at="2023-11-10T09:22:41 IST">
+    <test name="Test" duration-ms="33775" started-at="2023-11-20T09:09:50 IST" finished-at="2023-11-20T09:10:23 IST">
       <class name="Testcases.MakeMyTripFlighSearch">
-        <test-method status="PASS" signature="LaunchTheBrowser()[pri:0, instance:Testcases.MakeMyTripFlighSearch@4fb64261]" name="LaunchTheBrowser" is-config="true" duration-ms="2613" started-at="2023-11-10T09:21:41 IST" finished-at="2023-11-10T09:21:44 IST">
+        <test-method status="PASS" signature="LaunchTheBrowser()[pri:0, instance:Testcases.MakeMyTripFlighSearch@4fb64261]" name="LaunchTheBrowser" is-config="true" duration-ms="2396" started-at="2023-11-20T09:09:47 IST" finished-at="2023-11-20T09:09:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchTheBrowser -->
-        <test-method status="PASS" signature="OpenTheApplication()[pri:0, instance:Testcases.MakeMyTripFlighSearch@4fb64261]" name="OpenTheApplication" is-config="true" duration-ms="2703" started-at="2023-11-10T09:21:44 IST" finished-at="2023-11-10T09:21:46 IST">
+        <test-method status="PASS" signature="OpenTheApplication()[pri:0, instance:Testcases.MakeMyTripFlighSearch@4fb64261]" name="OpenTheApplication" is-config="true" duration-ms="2191" started-at="2023-11-20T09:09:50 IST" finished-at="2023-11-20T09:09:52 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenTheApplication -->
-        <test-method status="PASS" signature="deleteAdds()[pri:0, instance:Testcases.MakeMyTripFlighSearch@4fb64261]" name="deleteAdds" is-config="true" duration-ms="8497" started-at="2023-11-10T09:21:46 IST" finished-at="2023-11-10T09:21:55 IST">
+        <test-method status="PASS" signature="deleteAdds()[pri:0, instance:Testcases.MakeMyTripFlighSearch@4fb64261]" name="deleteAdds" is-config="true" duration-ms="8494" started-at="2023-11-20T09:09:52 IST" finished-at="2023-11-20T09:10:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteAdds -->
-        <test-method status="PASS" signature="SearchWithValidValues()[pri:0, instance:Testcases.MakeMyTripFlighSearch@4fb64261]" name="SearchWithValidValues" duration-ms="38003" started-at="2023-11-10T09:21:55 IST" finished-at="2023-11-10T09:22:33 IST">
+        <test-method status="PASS" signature="SearchWithValidValues()[pri:0, instance:Testcases.MakeMyTripFlighSearch@4fb64261]" name="SearchWithValidValues" duration-ms="15548" started-at="2023-11-20T09:10:00 IST" finished-at="2023-11-20T09:10:16 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchWithValidValues -->
-        <test-method status="PASS" signature="SearchWithSameFromAndToLocation()[pri:1, instance:Testcases.MakeMyTripFlighSearch@4fb64261]" name="SearchWithSameFromAndToLocation" duration-ms="7633" started-at="2023-11-10T09:22:33 IST" finished-at="2023-11-10T09:22:41 IST">
+        <test-method status="PASS" signature="SearchWithSameFromAndToLocation()[pri:1, instance:Testcases.MakeMyTripFlighSearch@4fb64261]" name="SearchWithSameFromAndToLocation" duration-ms="7526" started-at="2023-11-20T09:10:16 IST" finished-at="2023-11-20T09:10:23 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchWithSameFromAndToLocation -->
-        <test-method status="PASS" signature="CloseTheApplication()[pri:0, instance:Testcases.MakeMyTripFlighSearch@4fb64261]" name="CloseTheApplication" is-config="true" duration-ms="772" started-at="2023-11-10T09:22:41 IST" finished-at="2023-11-10T09:22:41 IST">
+        <test-method status="PASS" signature="CloseTheApplication()[pri:0, instance:Testcases.MakeMyTripFlighSearch@4fb64261]" name="CloseTheApplication" is-config="true" duration-ms="744" started-at="2023-11-20T09:10:23 IST" finished-at="2023-11-20T09:10:24 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseTheApplication -->
       </class> <!-- Testcases.MakeMyTripFlighSearch -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
