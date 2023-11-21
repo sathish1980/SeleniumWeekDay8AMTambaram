@@ -10,6 +10,7 @@
           <include name="OpenTheApplication"/>
           <include name="SearchWithSameFromAndToLocation"/>
           <include name="LaunchTheBrowser"/>
+          <include name="ReportUpdate"/>
           <include name="CloseTheApplication"/>
         </methods>
       </class> <!-- Testcases.MakeMyTripFlighSearch -->
